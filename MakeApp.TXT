@@ -1,0 +1,6 @@
+pyinstaller assasination.py
+then transfer the media dir to the same dir as the exe file
+in the code, every path should contain os.path.join(base_dir, 'media', name) include fonts, music in ogg
+base dir will be '' if on .py, and os.meipass if in .exe
+only wav!! not mp3 ogg...
+done!
